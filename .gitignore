@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.secret
+
+# NOTE: *.pkl (model + scaler), *.csv and *.ipynb are intentionally
+# NOT ignored - the app requires Medical-Triage_model.pkl and scaler.pkl
+# to boot on Streamlit Community Cloud.
